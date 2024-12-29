@@ -46,6 +46,7 @@ a:hover {
     margin: 0 auto;
     padding: 30px;
     max-width: 900px;
+    margin-bottom: 5vh
 }
 
 
@@ -115,23 +116,33 @@ a:hover {
 ----------------------------------------------*/
 
 footer {
-    background-color: #222222;
+    background-color: rgb(40 40 40 / 0.9);
     color: #d3d4d6;
+    
+    position: fixed;
+    top: 90%; 
+    margin-left: -2%;
+    text-align: center;
+    /* background-color: crimson; */
+    width: 110%;
+    
+
     
 }
 
-.home footer {
-    position:absolute;
+/* footer::before: {
+    margin-top: 100px;
+} */
+
+/* .home footer {
+    position: fixed;
     width:100%;
-    bottom:0px;
-    margin-bottom: -1%;
-    margin-left: -0.4%;
-}
+    /* bottom:0px;  */
+    /* margin-bottom: -1%;
+    margin-left: -0.4%; 
 
-#footer-content-wrapper {
-    margin-left: 0.4%;
-
-}
+} 
+*/
 
 footer a {
     color: #bcaa96
@@ -142,15 +153,20 @@ footer a:hover {
 
 .socials {
     list-style-type: none;
-    padding: -0px;
 }
 
 .socials li {
-    display: inline-block;
+    display: inline;
     margin-left: 32px;
+    
 }
 
 .socials img {
-    width: 40px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    right: 7.6vh;
+
 }
 
