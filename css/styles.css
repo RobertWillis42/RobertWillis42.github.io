@@ -60,21 +60,50 @@ a:hover {
     background-color: rgb(34 34 34 / 0.9);
     color: #d3d4d6;
 }
+
+
+
 /* RESUME
 ----------------------------------------------*/
-.resume header::before {
-    background: url(../images/bg-home-office-studio.jpg);
-    background-size: cover;
+/* .resume header::before {
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size:cover;
     background-position: center;
     content: "";
     display: block;
-    height: 375px;
+    height: 300px;
+    width: 100%;
+    
+} */
+
+.resume header {
+    margin-bottom: -80px;
+    text-align: left;
 }
+
+.resume header h1:first-of-type {
+    text-align: center;
+}
+.resume header h2:first-of-type {
+    text-align: center;
+}
+
 
 .self-image {
     display: block;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.resume-section {
+    margin-bottom: 50px;
+ 
+}
+.resume-section h2 {
+    border-bottom: 2px dashed #d3d4d6;
+}
+
 
 /* Profile
 ----------------------------------------------*/
@@ -88,6 +117,20 @@ a:hover {
 footer {
     background-color: #222222;
     color: #d3d4d6;
+    
+}
+
+.home footer {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    margin-bottom: -1%;
+    margin-left: -0.4%;
+}
+
+#footer-content-wrapper {
+    margin-left: 0.4%;
+
 }
 
 footer a {
@@ -99,14 +142,15 @@ footer a:hover {
 
 .socials {
     list-style-type: none;
-    padding: 0;
+    padding: -0px;
 }
 
 .socials li {
     display: inline-block;
+    margin-left: 32px;
 }
 
 .socials img {
-    width: 32px;
+    width: 40px;
 }
 
