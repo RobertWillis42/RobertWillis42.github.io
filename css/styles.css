@@ -120,6 +120,7 @@ a:hover {
 
     background-color: rgb(34 34 34 / 0.9);
     color: #d3d4d6;
+    margin-bottom: 13vh;
 
 }
 
@@ -156,12 +157,12 @@ footer {
     background-color: rgb(40 40 40 / 0.9);
     color: #d3d4d6;
     
-    position: fixed;
-    top: 90%; 
-    margin-left: -2%;
+    position: relative; 
     text-align: center;
-    /* background-color: crimson; */
-    width: 110%;
+    bottom: 10vh;
+    border-radius: 15px;
+    margin: auto auto auto auto;
+    max-width: 900px;
     
 
     
@@ -203,7 +204,7 @@ footer a:hover {
     height: 32px;
     width: 32px;
     text-align: center;
-    right: 7.6vh;
+    right: 4vh;
 
 }
 
